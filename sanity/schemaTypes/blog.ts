@@ -1,3 +1,4 @@
+
 import { Preview } from 'sanity';
 
 interface BlogDocument {
@@ -74,5 +75,4 @@ export default {
   ],
   preview: blogPreview,
 };
-
 
