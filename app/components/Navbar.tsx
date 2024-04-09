@@ -36,11 +36,14 @@ export default function Navbar() {
           </svg>
         </div>
         <div>
-          <button className="bg-gray-400 hover:bg-gray-300 text-white font-bold py-1 px-2 rounded">
-            Create Blog Post
-          </button>
+          <Link href="/create-blog-post">
+            <button className="bg-gray-400 hover:bg-gray-300 text-white font-bold py-1 px-2 rounded">
+              Create Blog Post
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
   );
 }
+
