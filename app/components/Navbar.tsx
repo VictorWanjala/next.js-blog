@@ -12,7 +12,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex items-center">
-        <Link href="/blogs">
+        <Link href="/">
           <span className="text-sm mr-4">Blogs</span>
         </Link>
         <div className="relative flex items-center">

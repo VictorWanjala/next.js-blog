@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { client, urlFor } from "./lib/sanity";
 import { simpleBlogCard } from "./lib/interface";
+import CreateBlogForm from "./components/CreateBlogForm";
 
 async function getData() {
   const query = `*[_type == 'blog']{
