@@ -25,6 +25,8 @@ This project is a blog website where users can read and write blog posts. It all
 - Create new blog posts
 - Responsive design for mobile and desktop devices
 
+
+
 ## Setup
 
 To run this project locally, follow these steps:
@@ -40,8 +42,14 @@ To run this project locally, follow these steps:
 
    npm run dev
 
+### Backend (Sanity.io)
+1. Install the Sanity CLI globally: npm install -g @sanity/cli
+2. Initialize a new Sanity project: sanity init
+3. Follow the prompts to create a new Sanity project. Choose the default "blog" schema. 
+4. Start the Sanity Studio:
+
 ## Usage
-Once the project is set up and running, you can perform the following actions:
+Once both the frontend and backend are set up and running, you can perform the following actions:
 
 Browse the list of blog posts by visiting the homepage.
 Click on a blog post to read its details.
