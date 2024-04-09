@@ -1,5 +1,8 @@
 # NextJS Blog Project
 
+![Screenshot from 2024-04-09 09-56-27](https://github.com/VictorWanjala/next.js-blog/assets/119665465/974218c7-ea40-4875-8a4a-0097a5239450)
+
+
 This is a simple blog project built with Next.js 
 
 ## Table of Contents
